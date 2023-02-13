@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clone from github') {
             steps {
-                git branch: 'main', url: 'https://github.com/mohammedashiqu/terraform-aws-loadbalancer-project.git'
+                git branch: 'main', url: 'https://github.com/Rakhilgit/aws_teraform_loadbalance.git'
             }
         }
         stage('terraform initialization') {
